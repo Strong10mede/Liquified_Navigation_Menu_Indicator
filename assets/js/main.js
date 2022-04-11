@@ -11,10 +11,10 @@ function ScrollActive(){
           sectionId = current.getAttribute("id");
 
           if(scrollY > sectionTop && scrollY <= sectionHeight + sectionTop){
-            document.getElementById(sectionId).classList.add("active__link");
+            document.querySelector(".nav__list a[href*=" + sectionId).classList.add("active__link");
         }
           else{
-            document.getElementById(sectionId).classList.remove("active__link");         
+            document.querySelector("nav__list a[href*=" +sectionId).classList.remove("active__link");         
           }       
     });    
 }

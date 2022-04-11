@@ -129,8 +129,25 @@ a {
 }
 
 /* Move indicator */
+.nav__link:nth-child(1).active__link ~ .indicator{
+    transform: translateX(calc(56px * 0));
+}
 
+.nav__link:nth-child(2).active__link ~ .indicator{
+    transform: translateX(calc(56px * 1));
+}
 
+.nav__link:nth-child(3).active__link ~ .indicator{
+    transform: translateX(calc(56px * 2));
+}
+
+.nav__link:nth-child(4).active__link ~ .indicator{
+    transform: translateX(calc(56px * 3));
+}
+
+.nav__link:nth-child(5).active__link ~ .indicator{
+    transform: translateX(calc(56px * 4));
+}
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 

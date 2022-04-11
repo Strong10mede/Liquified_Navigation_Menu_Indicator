@@ -93,6 +93,13 @@ a {
 }
 
 /* Indicator link */
+.indicator{
+    fill: var(--body-color);
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    transition: .3s;
+}
 
 
 /* Active link */

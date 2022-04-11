@@ -94,7 +94,7 @@ a {
 
 /* Indicator link */
 .indicator{
-    fill: var(--body-color);
+    fill: var(--first-color);
     position: absolute;
     left: 5px;
     bottom: 0;
@@ -103,7 +103,13 @@ a {
 
 
 /* Active link */
+.active-link i{
+    color: var(--body-color);
+}
 
+.active-link .nav__name{
+    transform: translateY(28px);
+}
 
 /* Move indicator */
 

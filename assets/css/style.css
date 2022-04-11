@@ -120,11 +120,11 @@ a {
 
 
 /* Active link */
-.active-link i{
+.active__link i{
     color: var(--body-color);
 }
 
-.active-link .nav__name{
+.active__link .nav__name{
     transform: translateY(28px);
     opacity: 1;
 }

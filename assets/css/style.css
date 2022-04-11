@@ -47,6 +47,23 @@ a {
 }
 
 /*=============== NAVBAR ===============*/
+
+.container{
+    max-width: 968px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.container section{
+    height: 100vh;
+    padding: 2rem 0;
+}
+
+.container h2{
+    text-align: center;
+    color: var(--title-color);
+}
+
 .nav{
     position: fixed;
     bottom: 2rem;

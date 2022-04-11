@@ -1,6 +1,6 @@
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
-const sections = document.querySelectorAll(".nav__link");
+const sections = document.querySelectorAll("section[id]");
 
 function ScrollActive(){
     const scrollY = window.pageXOffset;
